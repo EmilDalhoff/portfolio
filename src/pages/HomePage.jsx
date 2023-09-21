@@ -20,11 +20,11 @@ import Indesign from "../assets/Indesign.svg"
 import Game from "../assets/game-development.svg"
 import Github from "../assets/github-mark.svg"
 import Capo from "../assets/Capo.svg"
-import Vin from "../assets/aarhusvin.svg"
+import Vin from "../assets/Vinhandel.svg"
 import Artificial from "../assets/AI.svg"
 import Squash from "../assets/Squash.svg"
 import Braetspil from "../assets/Braetspil.svg"
-import Pricing from "../assets/Pricing.svg"
+import Pricing from "../assets/Pricingcomponent.svg"
 import Mad from "../assets/Madmagasin.svg"
 import Parallax from "../assets/Parallax.svg"
 import Coding from "../assets/coding.svg"
@@ -146,7 +146,7 @@ export default function HomePage() {
 
 
           <section id="port-link" className="port-1">
-            <h5>Portfolio</h5>
+            <h5>Projekter</h5>
             <p>Her kan I udforske mit portfolio, hvor mine spændende projekter tager form. Få indblik i min udvikling inden for frontend-udvikling, grafisk design og UI/UX-design gennem mine tidligere projekter, som reflekterer min rejse. </p>
             <div className="portbox-container">
               <div className="portbox"><a href="https://github.com/EmilDalhoff"><img src={Github} alt="Plus" /></a></div>
