@@ -535,13 +535,15 @@ h4 {
   border: 1px solid #ccc;
   display: flex;
   gap: 20px;
-  height: 150px;
+  height: 250px;
   
 }
 
 .edu-container p {
 color: #000000;
 text-align: left;
+padding: 10px;
+line-height: 30px;
 }
 .subject {
   width: 20%;
@@ -553,6 +555,12 @@ text-align: left;
   padding: 20px 0px 20px 20px;
 }
 
+.subject p {
+  font-weight: bold;
+}
+.subject-about p:nth-child(1) {
+font-weight: bold;  
+}
 h5 {
   color: #FFF;
   font-size: 50px;
@@ -571,6 +579,13 @@ h6 {
   padding: 30px;
 }
 
+.port-1 {
+  margin-top: 200px;
+}
+
+.eduhead {
+  margin-top: 200px;
+}
 .port-1 p {
   max-width: 40%; /* Adjust the max-width as needed */
   margin: 0 auto; /* Center the element horizontally */
@@ -1345,6 +1360,7 @@ h5 {
 }
 
 .port-1 {
+  
   width: 150%; 
   padding-bottom: 50px;
   

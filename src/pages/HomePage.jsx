@@ -86,7 +86,7 @@ export default function HomePage() {
 
 
           <section>
-            <h4>Uddannelse</h4>
+            <h4 className="eduhead">Uddannelse</h4>
     <div className="edu-container">
         <div className="subject">
             <p>Programmering</p>
