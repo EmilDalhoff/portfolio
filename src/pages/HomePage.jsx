@@ -112,7 +112,7 @@ export default function HomePage() {
             <p>UX/UI Design</p>
         </div>
         <div className="subject-about">
-            <p>Fagområde 2</p>
+            <p>Fagområde</p>
             <p>I UX/UI er der især fokus på brugerundersøgelser, prototyping, informationsarkitektur og brugercentreret design. Dette gør at jeg kan skabe mere brugervenlige hjemmesider. </p>
         </div>
     </div>
