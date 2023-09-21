@@ -1,4 +1,4 @@
-
+import Gron from "../assets/groenport.png";
 
 export default function Nav() {
     const openHamburger = () => {
@@ -21,7 +21,7 @@ export default function Nav() {
     return (
 
         <nav>
-            <img className="imgemil" src="src/assets/groenport.png" alt="nav-pic" />
+            <img className="imgemil" src={Gron} alt="nav-pic" />
 
 
             <div className="nav-bar" >
