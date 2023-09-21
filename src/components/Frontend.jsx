@@ -18,7 +18,7 @@ export default function Frontend() {
     textLoad();
     const intervalId = setInterval(textLoad, 12000);
 
-    
+
     return () => {
       clearInterval(intervalId);
     };
@@ -26,7 +26,7 @@ export default function Frontend() {
 
   return (
     <div class="container">
-        <span class="text sec-text">Frontend</span>
+      <span class="text sec-text">Frontend</span>
     </div>
   )
 

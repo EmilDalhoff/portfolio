@@ -1,4 +1,4 @@
-import Gron from "../assets/groenport.png";
+import Gron from "../assets/groenport1.svg";
 
 export default function Nav() {
     const openHamburger = () => {
@@ -11,7 +11,7 @@ export default function Nav() {
         navMenu.classList.toggle("active");
         navLink.forEach((link) => {
             link.classList.toggle("active");
-        
+
         });
         bar.forEach((bar) => {
             bar.classList.toggle("active");

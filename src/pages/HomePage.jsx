@@ -3,7 +3,7 @@ import Aside from "../components/Aside";
 import Frontend from "../components/Frontend";
 import React from "react";
 import Skills from "../components/Skills";
-import Developer from "../assets/web.png"
+import Developer from "../assets/web.svg"
 import Arrow from "../assets/arrow.svg"
 import Profile from "../assets/emilgron.svg"
 import Phone from "../assets/Phone.svg"
@@ -51,7 +51,7 @@ export default function HomePage() {
       <main id="intro-link" className="main-content">
         <div className="aside-wrapper">
 
-          
+
           <Aside />
           <div className="main-wrapper">
             <section className="introsection">
@@ -113,36 +113,36 @@ export default function HomePage() {
 
           <section>
             <h4 className="eduhead">Uddannelse</h4>
-    <div className="edu-container">
-        <div className="subject">
-            <p>Programmering</p>
-        </div>
-        <div className="subject-about">
-            <p>Hovedområde</p>
-            <p>Jeg lærer primært webudvikling med HTML, CSS og JavaScript. Her har vi især fokus på at komme i dybden på disse samt lave responsive designs til forskellige enheder. Jeg er nu på vej ind i frontend-rammen, som er React og går også i dybden med fejlfindinger og ydeevneoptimering.</p>
-        </div>
-    </div>
-    
-    <div className="edu-container">
-        <div className="subject">
-            <p>Design</p>
-        </div>
-        <div className="subject-about">
-            <p>Fagområde 1</p>
-            <p>I Design har vi fokus på designprincipper, layout og farvelære. I min fritid har jeg gjort mig klog på brugen af diverse Adobe-software til grafisk design. Dette benytter vi til at skabe brandidentiteter, samt grafiske elementer som videreføres til mine programmerings opgaver..</p>
-        </div>
-    </div>
+            <div className="edu-container">
+              <div className="subject">
+                <p>Programmering</p>
+              </div>
+              <div className="subject-about">
+                <p>Hovedområde</p>
+                <p>Jeg lærer primært webudvikling med HTML, CSS og JavaScript. Her har vi især fokus på at komme i dybden på disse samt lave responsive designs til forskellige enheder. Jeg er nu på vej ind i frontend-rammen, som er React og går også i dybden med fejlfindinger og ydeevneoptimering.</p>
+              </div>
+            </div>
 
-    <div className="edu-container">
-        <div className="subject">
-            <p>UX/UI Design</p>
-        </div>
-        <div className="subject-about">
-            <p>Fagområde</p>
-            <p>I UX/UI er der især fokus på brugerundersøgelser, prototyping, informationsarkitektur og brugercentreret design. Dette gør at jeg kan skabe mere brugervenlige hjemmesider. </p>
-        </div>
-    </div>
-   </section>
+            <div className="edu-container">
+              <div className="subject">
+                <p>Design</p>
+              </div>
+              <div className="subject-about">
+                <p>Fagområde 1</p>
+                <p>I Design har vi fokus på designprincipper, layout og farvelære. I min fritid har jeg gjort mig klog på brugen af diverse Adobe-software til grafisk design. Dette benytter vi til at skabe brandidentiteter, samt grafiske elementer som videreføres til mine programmerings opgaver..</p>
+              </div>
+            </div>
+
+            <div className="edu-container">
+              <div className="subject">
+                <p>UX/UI Design</p>
+              </div>
+              <div className="subject-about">
+                <p>Fagområde</p>
+                <p>I UX/UI er der især fokus på brugerundersøgelser, prototyping, informationsarkitektur og brugercentreret design. Dette gør at jeg kan skabe mere brugervenlige hjemmesider. </p>
+              </div>
+            </div>
+          </section>
 
 
           <section id="port-link" className="port-1">
@@ -235,15 +235,15 @@ export default function HomePage() {
                   <p>Facebook.com/Emildalhoff</p>
                 </div>
               </div>
-              
+
             </div>
-           
+
           </div>
         </div>
-            
+
 
       </main>
-      <BackToTop/>
+      <BackToTop />
     </div>
   );
 
