@@ -87,40 +87,36 @@ export default function HomePage() {
 
           <section>
             <h4>Uddannelse</h4>
-            <div className="widebox">
-              <div className="widebox1">
-                <div className="wide">
-                  <p>Programmering</p>
-                  <div>
-                    <div className="widebox-text">
-                    <p>Hovedområde</p>
-                    <p>Jeg lærer primært webudvikling med HTML, CSS og JavaScript. Her har vi især fokus på at komme i dybden på disse samt lave responsive designs til forskellige enheder. Jeg er nu på vej ind i frontend-rammen, som er React og går også i dybden med fejlfindinger og ydeevneoptimering.</p>
-                    </div>
-                  </div>
-                </div>
+    <div className="edu-container">
+        <div className="subject">
+            <p>Programmering</p>
+        </div>
+        <div className="subject-about">
+            <p>Hovedområde</p>
+            <p>Jeg lærer primært webudvikling med HTML, CSS og JavaScript. Her har vi især fokus på at komme i dybden på disse samt lave responsive designs til forskellige enheder. Jeg er nu på vej ind i frontend-rammen, som er React og går også i dybden med fejlfindinger og ydeevneoptimering.</p>
+        </div>
+    </div>
+    
+    <div className="edu-container">
+        <div className="subject">
+            <p>Design</p>
+        </div>
+        <div className="subject-about">
+            <p>Fagområde 1</p>
+            <p>I Design har vi fokus på designprincipper, layout og farvelære. I min fritid har jeg gjort mig klog på brugen af diverse Adobe-software til grafisk design. Dette benytter vi til at skabe brandidentiteter, samt grafiske elementer som videreføres til mine programmerings opgaver..</p>
+        </div>
+    </div>
 
-              </div>
-
-              <div className="widebox2">
-                <div className="wide">
-                  <p>Grafisk Design</p>
-                  <div>
-                    <p>Fagområde 1</p>
-                    <p>I Design har vi fokus på designprincipper, layout og farvelære. I min fritid har jeg gjort mig klog på brugen af diverse Adobe-software til grafisk design. Dette benytter vi til at skabe brandidentiteter, samt grafiske elementer som videreføres til mine programmerings opgaver. </p>
-                  </div>
-                </div>
-              </div>
-              <div className="widebox3">
-                <div className="wide">
-                  <p>UX/UI Design</p>
-                  <div>
-                    <p>Fagområde 2</p>
-                    <p>I UX/UI er der især fokus på brugerundersøgelser, prototyping, informationsarkitektur og brugercentreret design. Dette gør at jeg kan skabe mere brugervenlige hjemmesider. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+    <div className="edu-container">
+        <div className="subject">
+            <p>UX/UI Design</p>
+        </div>
+        <div className="subject-about">
+            <p>Fagområde 2</p>
+            <p>I UX/UI er der især fokus på brugerundersøgelser, prototyping, informationsarkitektur og brugercentreret design. Dette gør at jeg kan skabe mere brugervenlige hjemmesider. </p>
+        </div>
+    </div>
+   </section>
 
 
           <section id="port-link" className="port-1">

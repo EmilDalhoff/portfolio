@@ -16,7 +16,7 @@ body {
 }
 
 
-/* github tjek */
+
 
 a {
   
@@ -223,6 +223,10 @@ hr {
   background: linear-gradient(to right, #CCF381 65%, transparent 50%);
 }
 
+.text-t {
+  text-align: left;
+}
+
 
 .line2 {
   margin-top: 70px;
@@ -236,6 +240,11 @@ hr {
   top: 30px;
 }
 
+.pbox {
+  display: flex;
+  text-align: left;
+  padding: 40px;
+}
 .line4 {
   margin-top: 60px;
   padding-left: 20px;
@@ -486,7 +495,7 @@ line-height: 123.6%;
   font-weight: 400;
   line-height: 200%; 
   margin-top: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .icon-row {
@@ -518,52 +527,30 @@ h4 {
   line-height: 123.6%; 
   padding: 50px;
 }
-  .widebox {
-    display: flex;
-    flex-direction: column;
-    max-width: 57%;
-    justify-content: center;
-    margin: 0 auto; 
-}
 
-
-
-.widebox1,
-.widebox2,
-.widebox3 {
+.edu-container {
+  background-color: #F5F5F5;
+  width: 57%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
   display: flex;
-  background-color: white; /* Set background color to white */
-  padding: 20px; /* Add padding to the boxes for spacing */
-  border-top: grey 1px solid; /* Add a grey border to the top of the boxes */
-  width: 100%;
+  gap: 20px;
+  height: 150px;
   
-
 }
 
-.wide p {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 123.6%; 
-  margin-top: 20px;
-  align-items: center;
+.edu-container p {
+color: #000000;
+text-align: left;
+}
+.subject {
+  width: 20%;
+  padding: 20px 0px 20px 20px;
+}
+
+.subject-about {
   width: 80%;
-  
-}
-  
-.widebox p {
-  color: #000000;
-  
-  display: flex;
-  flex-direction: column;
-
-}
-
-.wide {
-  display: flex;
-  flex-direction: row;
-  padding: 40px;
-  justify-content: space-between;
+  padding: 20px 0px 20px 20px;
 }
 
 h5 {
@@ -588,6 +575,7 @@ h6 {
   max-width: 40%; /* Adjust the max-width as needed */
   margin: 0 auto; /* Center the element horizontally */
   padding-bottom: 50px;
+  text-align: left;
 }
 .portbox-container {
   display: grid;
@@ -1108,7 +1096,6 @@ span.text.sec-text {
 .pbox {
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
   width: 100%;
   padding: 20px;  
@@ -1148,29 +1135,33 @@ h4 {
   justify-content: center;
 }
 
-.widebox {
-  display: flex;
-  flex-direction: column;
-  max-width: 90%;
-  justify-content: center;
+.edu-container {
+  width: 90%;
+  height: 250px
+}
+
+.edu-container p {
+  font-size: 15px;
+}
+
+.subject p {
+  font-weight: bold;
+}
+.subject {
+  padding: 20px 0px 20px 20px;
   
 }
 
-.pbox {
-  width: 100%;
-  display: flex;
-  align-items: center;
+.subject-about {
+  padding: 20px 20px 20px 20px;
 }
 
-.widebox p {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  margin-top: 20px;
-  text-align: left;
-  width: 100%;
-  
+.subject-about p:nth-child(1) {
+  font-weight: bold;
 }
+
+
+
 
 h5 {
   font-size: 30px;
@@ -1281,7 +1272,7 @@ font-size: 12px; /* Decrease font-size for mobile */
 .box-text p {
   font-size: 18px;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
   display: flex;
   
 }
@@ -1319,40 +1310,32 @@ h4 {
   margin-left: 150px;
 }
 
-.widebox {
+
+.edu-container {
+  width: 150%;
   display: flex;
-  flex-direction: column;
-  max-width: 100%;  
-  justify-content: center;
-  padding-left: 40px;
+  height: 400px;
+  margin: 0 auto;
 }
 
-.widebox p {
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
+.edu-container p {
+  font-size: 15px;
+}
+
+.subject p {
+  font-weight: bold;
+}
+.subject {
+  padding: 20px 0px 20px 20px;
   
 }
 
-.wide {
-  display: flex;
-  flex-direction: column;
+.subject-about {
+  padding: 20px 20px 20px 20px;
 }
 
-.widebox1,
-.widebox2,
-.widebox3 {
-  display: flex;
-  background-color: white; /* Set background color to white */
-  padding: 20px; /* Add padding to the boxes for spacing */
-  border-top: grey 1px solid; /* Add a grey border to the top of the boxes */
-  width: 145%;
-  
-  
-
+.subject-about p:nth-child(1) {
+  font-weight: bold;
 }
 h5 {
   font-size: 30px;
