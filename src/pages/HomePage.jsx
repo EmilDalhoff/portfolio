@@ -30,6 +30,8 @@ import Parallax from "../assets/Parallax.svg"
 import Coding from "../assets/coding.svg"
 import Geo from "../assets/Geography.svg"
 import Email from "../assets/Email.svg"
+import BackToTop from "../components/BackToTop";
+
 export default function HomePage() {
   const [posts, setposts] = useState([]);
 
@@ -233,13 +235,15 @@ export default function HomePage() {
                   <p>Facebook.com/Emildalhoff</p>
                 </div>
               </div>
+              
             </div>
+           
           </div>
         </div>
-
+            
 
       </main>
-
+      <BackToTop/>
     </div>
   );
 
