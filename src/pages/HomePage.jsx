@@ -22,10 +22,7 @@ import Github from "../assets/github-mark.svg"
 import Capo from "../assets/Capo.svg"
 import Vin from "../assets/Vinhandel.svg"
 import Artificial from "../assets/AI.svg"
-import Squash from "../assets/Squash.svg"
-import Braetspil from "../assets/Braetspil.svg"
 import Pricing from "../assets/Pricingcomponent.svg"
-import Mad from "../assets/Madmagasin.svg"
 import Parallax from "../assets/Parallax.svg"
 import Coding from "../assets/coding.svg"
 import Geo from "../assets/Geography.svg"
@@ -153,10 +150,10 @@ export default function HomePage() {
               <div className="portbox"><a href="https://harmscreativity.dk/"><img src={Capo} alt="Plus" /></a></div>
               <div className="portbox"><a href="https://aarhusvinhandel.tobiaswolmar.dk/index.html"><img src={Vin} alt="Plus" /></a></div>
               <div className="portbox"><a href="https://webdoc-ai.harmscreativity.dk/index.html"><img src={Artificial} alt="Plus" /></a></div>
-              <div className="portbox"><a href="https://emildalhoff.dk/"><img src={Squash} alt="Plus" /></a></div>
-              <div className="portbox"><a href="https://dennisrussell.dk/"><img src={Braetspil} alt="Plus" /></a></div>
+              
+              
               <div className="portbox"><a href="https://github.com/EmilDalhoff/react-pricing-component"><img src={Pricing} alt="Plus" /></a></div>
-              <div className="portbox"><a href="https://onlinemagasin.emildalhoff.dk/"><img src={Mad} alt="Plus" /></a></div>
+              
               <div className="portbox"><a href="https://github.com/EmilDalhoff/parallax"><img src={Parallax} alt="Plus" /></a></div>
             </div>
           </section>

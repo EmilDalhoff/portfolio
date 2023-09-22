@@ -6,6 +6,7 @@ import Linkedin from "../assets/Linkedin.svg"
 import Youtube from "../assets/Youtube.svg"
 import Punkt from "../assets/Icons.svg"
 import Frame from "../assets/Frame.svg"
+import pdfFile from "../assets/Professional CV Resume.pdf"
 export default function Aside() {
 
   return (
@@ -78,7 +79,7 @@ export default function Aside() {
         <img className="line4" src={Line} alt="line" />
       </div>
 
-      <button className="buttonCV">DOWNLOAD CV <img className="dl-i" src={Frame} alt="download-icon" /></button>
+      <a  href={pdfFile} download="src/assets/Professional CV Resume.pdf"><button className="buttonCV">DOWNLOAD CV <img className="dl-i" src={Frame} alt="download-icon" /></button></a>
     </aside>
   );
 }
