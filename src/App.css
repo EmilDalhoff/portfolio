@@ -34,10 +34,12 @@ body {
   padding: 0;
 }
 
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  
 }
 
 .nav-menu a:hover {
@@ -97,9 +99,7 @@ nav {
   display: flex;
   align-items: center;
   height: 100px;
-  
   z-index: 100; 
-  
 }
 
 
@@ -966,11 +966,13 @@ justify-content: space-between;
     gap: 20px;
     text-align: left;
     padding-left: 20px;
+    
   }
   
   .nav-menu a {
     font-size: 20px;
     color: #4831D4;
+    
   }
 
 

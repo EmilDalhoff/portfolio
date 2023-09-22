@@ -1,4 +1,4 @@
-import Gron from "../assets/groenport1.svg";
+import Gron from "../assets/Nytlogo.svg";
 
 export default function Nav() {
     const openHamburger = () => {
