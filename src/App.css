@@ -933,6 +933,227 @@ justify-content: space-between;
   transform: scale(1.2);
 }
 
+@media  screen and (max-width: 1024px) {
+  
+  nav {
+    height: 60px;
+    max-width: 95%;
+    font-size: 12px;
+  }
+
+  .icon-container {
+    width: 20px;
+
+    gap: 2px;
+  }
+
+  .line1, .line2, .line3, .line4 {
+    width: 180px;
+  }
+
+ hr {
+  width: 160px;
+ }
+
+ .asideh3 {
+  font-size: 16px;
+ }
+
+ aside p {
+  font-size: 12px;
+ }
+
+ .buttonCV {
+  width: 120px;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 10px;
+  
+ }
+
+ .introname
+  {
+    font-size: 30px;
+
+  }
+
+  
+span.text.sec-text {
+  font-size: 30px;
+  width: 200px;
+}
+
+.container {
+  width: 400px;
+}
+.buttonhire {
+  width: 130px;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.span.text.sec-text:before {
+  font-size: 30px;
+  width: 200px;
+}
+.introp {
+  font-size: 14px;
+  width: 400px;
+  }
+
+.introsection {
+  gap: 120px;
+}
+
+.introdiv {
+  width: 350px;
+  gap: 20px;
+}
+
+.img-dev {
+  width: 300px;
+  margin: 0;
+  
+}
+
+.aboutme {
+  width: 90%;
+  gap: 30px;
+  padding: 0;
+  align-items: left;
+}
+
+.img-me {
+  width: 300px;
+}
+
+
+.textabout {
+  padding: 0; 
+  width: 500px;
+  margin: 0;
+
+}
+
+.textabout h2 {
+  width: 300px;
+  font-size: 26px;
+}
+
+.textabout p {
+  font-size: 14px;
+  padding: 0;
+  line-height: 25px;
+}
+
+h3, h4, h5, h6 {
+  font-size: 26px;
+}
+
+
+.box-text {
+  padding: 0;
+}
+
+.pbox p {
+  font-size: 12px;
+  line-height: 20px;
+  width: 300px;
+}
+
+.box {
+  width: 80%;
+  height: 500px;
+}
+.box-container p {
+  font-size: 12px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.icon-row {
+  width: 100%;
+
+}
+
+.icon-row img {
+  width: 40px;
+  height: 40px;
+}
+
+.eduhead {
+  margin: 0;
+}
+
+.edu-container {
+  height: 200px;
+}
+.edu-container p {
+  font-size: 12px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.port-1 {
+  margin: 20px;
+}
+
+.port-1 p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.portbox-container {
+  width: 100%;
+  grid-gap: 0;
+  display: grid;
+  grid-template-rows: repeat(2, 255px);
+  grid-template-columns: repeat(3, 255px);
+}
+.portbox {
+  width: 250px;
+  height: 250px;
+ 
+}
+
+.contact-container {
+ width: 75%;
+ height: 100%;
+}
+
+.contact-container p, label {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+textarea#message {
+  height: 220px;
+  width: 95%;
+}
+
+.box-left input {
+  width: 95%;
+}
+ 
+.box-right h6 {
+  margin: 0px;
+  padding: 20px;
+}
+
+.back-to-top {
+  bottom: 30px;
+  right: 100px;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+}
+
+}
+
+
+
 @media screen and (max-width: 768px) {
   nav {
     height: 60px; /* Adjust height for tablets */
