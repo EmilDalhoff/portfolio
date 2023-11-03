@@ -1057,10 +1057,13 @@ h3, h4, h5, h6 {
   padding: 0;
 }
 
+.pbox {
+  padding: 10px;
+}
 .pbox p {
-  font-size: 12px;
-  line-height: 20px;
-  width: 300px;
+  font-size: 14px;
+  line-height: 30px;
+  width: 350px;
 }
 
 .box {
@@ -1102,8 +1105,9 @@ h3, h4, h5, h6 {
 
 .port-1 p {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 30px;
 }
+
 
 .portbox-container {
   width: 100%;
